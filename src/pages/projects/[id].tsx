@@ -7,7 +7,7 @@ import IProject from "../../interfaces/projects";
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const getServerSideProps = async(ctx: any) => {
   
-  const res = await axios.get(`http://44.204.237.227/projects/listen/specify`, {
+  const res = await axios.get(`https://api.gabrielj.dev/projects/listen/specify`, {
     headers: {
       id: ctx.query.id.toString()
     }
@@ -35,7 +35,7 @@ export default function ViewProject(project: Props) {
         <video
           controls
         >
-          <source src={`http://44.204.237.227/public/${project?.data.videoName}`} type="video/mp4" />
+          <source src={`https://api.gabrielj.dev/public/${project?.data.videoName}`} type="video/mp4" />
         </video>
         <G.Text margin="1rem 0rem 0rem 0rem" fontSize="1.5rem" fontWeight="600">
           {project?.data.name}
