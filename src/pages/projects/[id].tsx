@@ -34,8 +34,9 @@ export default function ViewProject(project: Props) {
       <G.Main>
         <video
           controls
-          src={`http://44.204.237.227/public/${project?.data.videoName}`}
-        ></video>
+        >
+          <source src={`http://44.204.237.227/public/${project?.data.videoName}`} type="video/mp4" />
+        </video>
         <G.Text margin="1rem 0rem 0rem 0rem" fontSize="1.5rem" fontWeight="600">
           {project?.data.name}
         </G.Text>
