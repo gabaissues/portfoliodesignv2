@@ -40,7 +40,7 @@ const AboutComponent = () => {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <g clip-path="url(#clip0_42_14)">
+            <g clipPath="url(#clip0_42_14)">
               <path
                 d="M196 0H60C26.8629 0 0 26.8629 0 60V196C0 229.137 26.8629 256 60 256H196C229.137 256 256 229.137 256 196V60C256 26.8629 229.137 0 196 0Z"
                 fill="#242938"
@@ -130,7 +130,7 @@ const AboutComponent = () => {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <g clip-path="url(#clip0_42_29)">
+            <g clipPath="url(#clip0_42_29)">
               <path
                 d="M213.5 0H42.5C19.0279 0 0 19.0279 0 42.5V207.1C0 230.572 19.0279 249.6 42.5 249.6H213.5C236.972 249.6 256 230.572 256 207.1V42.5C256 19.0279 236.972 0 213.5 0Z"
                 fill="#470137"

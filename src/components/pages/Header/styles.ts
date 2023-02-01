@@ -30,9 +30,11 @@ export const Image = styled.img`
 
 export const Cards = styled.div`
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   margin-top: 6.25rem;
-  max-width: 70rem;
+  max-width: 50rem;
 
   @media(max-width: 800px) {
 
@@ -43,14 +45,19 @@ export const Cards = styled.div`
   }
 `;
 export const Card = styled.div`
+  display: flex;
   width: 18.75rem;
+  height: 20rem;
   padding: 1rem;
-  background-color: #f6f6f6;
-  height: 15rem;
+  background-color: #F6F6F6;
+  justify-content: space-between;
+  flex-direction: column;
   border-radius: 0.75rem;
   transition: 0.5s ease;
   margin-left: 1rem;
   margin-bottom: 1rem;
+
+  flex: 3;
 
   &:hover {
     box-shadow: 0.375rem 0.375rem 0.25rem #e7e7e7;
@@ -58,14 +65,22 @@ export const Card = styled.div`
 
   @media(max-width: 800px) {
 
-    margin-left: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
     
   }
 `;
+
+export const Bottom = styled.div`
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  width: 100%;
+`
+
 export const CardBottom = styled.div`
   display: flex;
-  align-items: flex-end;
-  height: 10rem;
+  flex-direction: column;
 `;
 
 export const Paragraph = styled.p`
@@ -86,7 +101,6 @@ export const Link = styled.a`
   font-weight: 600;
   text-decoration: none;
   padding: 1rem 3rem;
-  width: 100%;
 `;
 
 export const TextFixed = styled.div<{
