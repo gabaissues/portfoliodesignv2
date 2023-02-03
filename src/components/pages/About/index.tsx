@@ -119,7 +119,7 @@ const AboutComponent = () => {
             fontSize="1.25rem"
             fontWeight="600"
           >
-            Photoshop
+            Photoshop (BÁSICO)
           </G.Text>
         </G.Card>
         <G.Card>
