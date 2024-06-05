@@ -10,7 +10,7 @@ import FooterComponent from "../components/global/Footer";
 
 export const getServerSideProps = async () => {
 
-  const data = await fetch("http://44.204.237.227/projects/listen")
+  const data = await fetch("https://api.gabaissues.com/projects/listen")
   const res: IProject[] = await data.json();
 
   return {

@@ -14,7 +14,7 @@ const AboutComponent = () => {
       </G.Text>
       <G.Paragraph>
         Gaba é um apelido que minha melhor amiga me deu, desde então uso pra
-        tudo. Gaba é desenvolvedor há mais de 4 anos, e UI/UX Designer a 2.
+        tudo. Gaba é desenvolvedor há mais de 6 anos, e UI/UX Designer a 3.
         Sempre fui estudando através de cursos (DankiCode), até que desisti e
         aprendi a ler documentações. Desde então só aprendo assim. Mas sempre
         vou atrás de um tutorial ou um curso mesmo para aprender um pouco mais
